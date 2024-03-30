@@ -10,8 +10,14 @@ export default function Profile({
   return (
     <div className={css.cardWrapper}>
       <div className={css.card}>
-        <img className={css.cardImg} src={avatar} alt={tag} />
-        <p className={css.userName}>{username}</p>
+        <img
+          className={css.cardImg}
+          src={avatar}
+          alt={tag}
+          width="80"
+          height="80"
+        />
+        <p className={css.name}>{username}</p>
         <p className={css.text}>{tag}</p>
         <p className={css.text}>{location}</p>
       </div>
