@@ -1,0 +1,11 @@
+.itemText {
+  color: black;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
