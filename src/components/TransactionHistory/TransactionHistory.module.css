@@ -1,0 +1,26 @@
+.list {
+  margin: 0 auto;
+  background-color: black;
+}
+
+.listItem {
+  text-align: center;
+}
+
+.listItemTable {
+  text-align: center;
+  padding: 5px 40px;
+}
+
+.firstStringText {
+  color: white;
+  padding: 5px 40px;
+}
+
+.firstChild:nth-child(even) {
+  background-color: rgb(185, 185, 185);
+}
+
+.secondChild:nth-child(odd) {
+  background-color: white;
+}
